@@ -6,7 +6,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Data+Scientist;Data+Analist;Building+real+projects+step+by+step" alt="Typing SVG" />
 </p>
 
-**Data Scientist · Data Analist · ML Engineer**
+**AI Engineer · Data Scientist · Data Analist**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
@@ -102,9 +102,7 @@ Telegram-бот для управления криптокошельками с 
 
 <div align="center">
 
-![Streak](https://streak-stats.demolab.com?user=MishelBazarov&theme=tokyonight&hide_border=true)
-
-![Top Langs](https://skillicons.dev/icons?i=python,postgres,react,js,cpp,git)
+![Top Langs](https://skillicons.dev/icons?i=python,postgres,react,,git)
 
 </div>
 
