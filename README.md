@@ -3,7 +3,7 @@
 # Привет, я Базаров Михаил Тимурович 👋 🫡
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Data+Scientist;Data+Analist;Building+real+projects+step+by+step" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=AI+Engineer;Data+Scientist;Building+real+projects+step+by+step" alt="Typing SVG" />
 </p>
 
 **AI Engineer · Data Scientist · Data Analist**
