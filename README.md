@@ -1,9 +1,11 @@
 <div align="center">
 
 # Базаров Михаил
-<p align="center">  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=AI+Engineer;Data+Scientist;Building+real+projects+step+by+step" alt="Typing SVG" /></p>
 
 ### Fullstack AI Engineer · Data Scientist
+
+<p align="center">  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=AI+Engineer;Data+Scientist;Building+real+projects+step+by+step" alt="Typing SVG" /></p>
+
 
 [![Telegram](https://img.shields.io/badge/Telegram-@DSt06-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/DSt06)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michailbazarov-835bb23b8)
