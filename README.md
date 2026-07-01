@@ -1,122 +1,73 @@
 <div align="center">
 
-# Привет, я Базаров Михаил Тимурович 👋 🫡
+# Базаров Михаил
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=AI+Engineer;Data+Scientist;Building+real+projects+step+by+step" alt="Typing SVG" />
-</p>
+### Fullstack AI Engineer · Data Scientist
 
-**AI Engineer · Data Scientist · Data Analist**
+[![Telegram](https://img.shields.io/badge/Telegram-@DSt06-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/DSt06)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michailbazarov-835bb23b8)
+[![Email](https://img.shields.io/badge/Email-mixailbaz%40yandex.ru-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mixailbaz@yandex.ru)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/michail-bazarov-835bb23b8)
-[![Telegram](https://img.shields.io/badge/Telegram-@DSt06-26A5E4?style=flat-square&logo=telegram)](https://t.me/@DSt06)
 </div>
 
+---
 
-## About Me
+## About
 
-Студент 2 курса **ГУАП** (Программная инженерия), развиваюсь в **Data Science**.
+Собираю AI-продукты от гипотезы до прода, в связке с AI-агентами: чат-боты, RAG-пайплайны, агентские системы, интеграции с внешними сервисами. Параллельно занимаюсь Data Science — EDA, статистические гипотезы, ML-модели, A/B-тесты с полным циклом (power analysis, статзначимость, деплой дашбордов).
 
-Работаю с табличными данными, EDA, preprocessing и базовыми ML-моделями. Интересуюсь задачами, где можно сочетать **аналитику, Python и инженерный подход**.
+Fullstack-бэкграунд позволяет доводить фичу от идеи до результата самостоятельно: от архитектуры и данных до интерфейса.
 
-Сейчас ищу **стажировку или первую позицию в DS / DA-команде**, где смогу расти на реальных задачах и усиливать практические навыки.
+Учусь на 2 курсе ГУАП (Программная инженерия). Открыт к задачам в AI Engineering, Data Science и продуктовой аналитике.
 
-- 🎯 **Focus:** Data Science / Machine Learning  
-- 🏫 **Education:** GUAP, Software Engineering (2024–2028)  
-- 📍 **Location:** Санкт-Петербург
-- 📬 **Contact:** mixailbaz@yandex.ru
+---
 
-## Soft Skills
+## Experience
 
-- 🇬🇧 Английский — B2
-- ⏱ Тайм-менеджмент и командная работа
-- ⚡ Быстрое освоение новых технологий
-- 🔍 Системный подход к задачам
+**Fullstack AI Engineer · ZOLT Agency** — май 2026 – наст. время
+Веду AI-продукты агентства целиком: чат-боты и LLM-ассистенты, RAG-пайплайны и базы знаний, агентские системы с инструментами и памятью, интеграции с мессенджерами/CRM/API, мониторинг после релиза.
 
+**Fullstack Engineer · AgentAPI** — ноя 2025 – наст. время
+Платформа-агрегатор AI-моделей (единый API к OpenAI, Anthropic, Gemini). Дашборды продуктовой аналитики, оптимизация SQL на PostgreSQL, фичи end-to-end на NestJS/TypeORM/React.
+
+---
 
 ## Tech Stack
 
-| Area | Tools |
+| Область | Инструменты |
 |---|---|
-| **Languages** | Python · SQL · JavaScript · TypeScript · C++ |
-| **Data Science** | pandas · numpy · matplotlib · seaborn · scikit-learn |
-| **ML** | Linear Regression · Random Forest |
-| **Backend** | PostgreSQL · REST API |
-| **Frontend** | React |
-| **Tools** | Git · GitHub · Jupyter Notebook |
+| **AI / LLM** | LLM API (OpenAI, Anthropic) · RAG · AI-агенты · чат-боты |
+| **AI-кодинг** | Cursor · Claude Code |
+| **Data Science** | pandas · numpy · scikit-learn · SciPy · SHAP · Optuna |
+| **Backend** | Node.js · NestJS · PostgreSQL · REST API |
+| **Frontend** | React · TypeScript |
+| **Languages** | Python · TypeScript · SQL |
+| **Tools** | Git · GitHub · Jupyter |
 
+---
 
 ## Featured Projects
 
-### Avito Price Analysis — EDA
-> *Python · Pandas · Seaborn · Matplotlib · Nov 2025 — Mar 2026*
+### A/B-тест алгоритма рекомендаций
+`Python` `SQL` `PostgreSQL` `SciPy` `Plotly Dash` `Docker` · сен – окт 2025
 
-Исследовательский анализ ~200 000 объявлений с маркетплейса Avito.
+Полный цикл эксперимента: power analysis (22 848 пользователей на группу, 14 дней), SRM- и A/A-тест перед запуском, калибровка false positive rate на 1000 пересплитах.
 
-- preprocessing: удаление пропусков и фильтрация выбросов
-- анализ распределений, категорий и регионов
-- построение heatmap (Category × Region)
-- **Key insight:** рынок сегментирован, а медиана оказалась более устойчивой метрикой, чем среднее
+- delta method (cluster-robust variance) для корректности при рандомизации на уровне пользователя
+- прирост конверсии **+10.1%** (p=2.5e-18) и среднего чека **+5.5%** (p=0.0001) с поправкой Бенджамини-Хохберга
+- дашборд на Plotly Dash, задеплоенный в Docker
 
+### Avito Demand Prediction — EDA & ML
+`pandas` `scikit-learn` `SciPy` `SHAP` `Optuna` · июн – авг 2025
 
-###  Real Estate Price Prediction — ML
-> *Python · scikit-learn · Sep 2025 — Oct 2025*
+Статистический анализ рынка на 1.5 млн объявлений и двухэтапная ML-модель (классификация + регрессия) для прогноза сделок.
 
-ML-проект по предсказанию цены недвижимости на табличных данных.
-
-- подготовка признаков и train/test split
-- обучение моделей: Linear Regression, Random Forest
-- базовое сравнение качества моделей
-- **Key insight:** реализован базовый ML-пайплайн и получен практический опыт работы с регрессией
-
-
-###  SPARK Wallet — Telegram Bot
-> *Python (aiogram) · Node.js · API · Jun 2025 — Aug 2025*
-
-Telegram-бот для управления криптокошельками с реальными транзакциями.
-
-- переводы Spark / Lightning / BTC
-- обновление баланса в реальном времени
-- интеграция внешних API
-- **Key insight:** практический опыт backend-логики, асинхронности и работы с финансовыми API
+- Kruskal-Wallis и попарный Mann-Whitney с поправкой Бенджамини-Хохберга: эффект категории (ε²=0.55) оказался в 32 раза сильнее регионального (ε²=0.017)
+- leakage-safe target encoding, TF-IDF+SVD; RMSE снижен на 13% (0.226 против 0.260), ROC-AUC 0.815
+- доведено до production: модульный пакет, 17 pytest-тестов, CI на GitHub Actions, SHAP-интерпретация
 
 ---
 
-### AgentAPI — Team Project
-> *React · TypeScript · Mar 2025 — May 2025*
-
-Командный проект с участием в frontend-разработке.
-
-- реализация UI форм регистрации и авторизации
-- участие в интерфейсной части продукта
-- работа в команде из 3 разработчиков
-
----
-
-## GitHub Stats
-
 <div align="center">
-
-![Top Langs](https://skillicons.dev/icons?i=python,postgres,react,,git)
-
-</div>
-
-
-## Additional Background
-
-- 📈 B2C-продажи — навыки коммуникации, работа с возражениями, клиентоориентированность
-- 📋 Бизнес / системный анализ — сбор требований, продуктовая логика, структурное мышление
-- 💻 Frontend-разработка — адаптивные интерфейсы, SPA/MPA, интеграция с API
-- 🎓 Учебные проекты:
-
- - Игра «Сапёр» (C++)
-  - Система поиска авиабилетов (Python, алгоритмы и структуры данных)
-
-<div align="center">
-  <sub>Open to Data Science / Data Analist · SPb & Remote</sub>
+<sub>Санкт-Петербург · Open to AI Engineering / Data Science</sub>
 </div>
